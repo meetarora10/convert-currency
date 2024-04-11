@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(45deg,white,rgb(234, 88, 234));
+}
+
+.container {
+    /* background:linear-gradient(45deg,white,rgb(234, 88, 234)); */
+    background-color: grey;
+    box-shadow: 5px 5px 8px black;
+    border-radius: 10px;
+    height: 350px;
+    width: 480px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 15px;
+}
+
+.container h2 {
+    position: relative;
+    bottom: 40px;
+    font-family: "Dela Gothic One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+hr{
+    color: white;
+    width: 200px;
+    position: relative;
+    bottom: 40px;
+}
+.amount{
+    position: relative;
+    bottom: 20px;
+}
+.amount p{
+    font-size: 1.35rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+.amount input{
+    height: 30px;
+    width: 200px;
+    border-radius: 6px;
+    border: 1px solid black;
+}
+.from,.to{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.from,.to p{
+    font-size: 1.16rem;
+}
+.dropdown {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+.select-container img{
+    max-width: 2.1rem;
+}
+.select-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 6rem;
+    border-radius: 5px;
+    border: 1px solid grey;
+    background-color: white;
+}
+.select{
+    border-radius: 10px;
+    border: none;
+    width: 60px;
+    height: 27px;
+    cursor: pointer;
+}
+i{
+    font-size: 1.8890rem;
+    position: relative;
+    top: 38px;
+    color: black;
+}
+.convertMsg{
+    font-size: 1rem;
+    font-family: "Dela Gothic One", sans-serif;
+    color: white;
+}
+.submit {
+    position: relative;
+    cursor: pointer;
+    top: 26px;
+    height: 40px;
+    width: 282px;
+    background-color: black;
+    color: white;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 5px;
+}
